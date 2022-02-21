@@ -1,0 +1,202 @@
+body {
+	background: rgb(60, 60, 84);
+	font-family: 'Roboto', sans-serif;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+}
+
+.nav-list {
+	float: left;
+	margin: 15px;
+	padding: 10px;
+}
+
+.nav-list > a {
+	text-decoration: none;
+	margin: 20px;
+	color: grey;
+	text-transform: uppercase;
+}
+
+.logo > a > i {
+	color: white;
+	font-size: 20px;
+}
+
+.sign-in {
+	float: right;
+}
+
+.sign-in > a {
+	color: white;
+	padding: 10px 25px;
+	border: 2px solid black;
+	border-radius: 25px;
+	transition: padding 1s;
+}
+
+/*.sign-in > a {
+	border: 2px solid transparent;
+	background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+}
+*/
+
+.sign-in > a:hover {
+	padding-left: 40px;
+	padding-right: 40px;
+	background: linear-gradient(to right, green, blue);
+	color: black;
+	font-weight: 700;
+}
+
+.offer > a {
+	transition: color 1s;
+}
+
+.offer > a:hover {
+	color: rgb(87, 87, 255);
+}
+
+.logo > a > i {
+	transition: color 1s;
+}
+
+.logo > a > i:hover {
+	color: rgb(87, 87, 255);
+}
+
+.container {
+	margin-left: 150px;
+	margin-top: 100px;
+	width: 40%;
+}
+
+.header {
+	color: white;
+	padding-bottom: 20px;
+}
+
+.bc > a {
+	color: white;
+	text-decoration: none;
+}
+
+.bc:hover {
+	background: black;
+	cursor: pointer;
+}
+
+.container > .para-1 {
+	color: grey;
+	padding-bottom: 20px;
+	text-align: justify;
+}
+
+.btn {
+	text-decoration: none;
+	color: rgb(92, 222, 255);
+	margin: 20px;
+	text-transform: uppercase;
+	transition: color 1s;
+}
+
+.btn:hover {
+	color: red;
+}
+
+.icon {
+	color: white;
+	border: 2px solid steelblue;
+	padding: 15px 18px;
+	border-radius: 30px;
+	transition: border 1s;
+}
+
+.icon:hover {
+	cursor: pointer;
+	border: 2px solid red;
+}
+
+.picture {
+	float: right;
+	height: 400px;
+	margin: 100px;
+	padding-right: 50px;
+}
+
+.option-bar {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: auto;
+	background: linear-gradient(to right, rgb(253, 0, 219), rgb(25, 215, 248));
+}
+
+.option-list {
+	float: left;
+	margin: 15px;
+	padding: 10px;
+}
+
+.option-list > a {
+	text-decoration: none;
+	margin: 20px;
+	color: white;
+	transition: color 1s;
+}
+
+.option-list > a:hover {
+	color: black;
+	cursor: pointer;
+}
+
+.social-bar > ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-end;
+	position: absolute;
+	width: 10%;
+	bottom: 0;
+	right: 0;
+}
+
+.social-media > li {
+	color: white;
+	margin-right: 30px;
+	margin-bottom: 50px;
+	border: 1px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius: 30px;
+}
+
+.social-media > li > a > i{
+	color: white;
+	padding: auto;
+	transition: color 1s;
+}
+
+.social-media > li > a > i:hover {
+	cursor: pointer;
+	color: red;
+}
+
+.bar {
+	margin: 0 5px;
+	color: white;
+	padding-bottom: 10px;
+	font-size: 20px;
+	padding-right: 10px;
+}
